@@ -44,6 +44,8 @@ $ cat > afile << SOMEENDSTRING
 
 ## external links
 
+* [https://devhints.io/bash](https://devhints.io/bash)
+
 * [ten-more-things-i-wish-id-known-about-bash](https://zwischenzugs.com/2018/01/21/ten-more-things-i-wish-id-known-about-bash/)
 
 * ![login-process](images/login-process.png)

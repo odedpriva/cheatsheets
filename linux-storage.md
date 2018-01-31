@@ -7,6 +7,9 @@
 * sudo fdisk -l /dev/xvda - list device partition
 
 
-2. linux storage structure
+
+
+## external links
+
 * ![linux-storage.png](images/linux-storage-1.png)
 

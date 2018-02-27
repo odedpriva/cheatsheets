@@ -14,3 +14,7 @@
 ## time sync
 
 1. timedatectl
+
+## command
+
+1. 

@@ -16,3 +16,6 @@
 
 5. import table
 * sudo iptables-restore < table
+
+6. follow a chain
+- `sudo iptables -L KUBE-SERVICE -t nat`

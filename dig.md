@@ -15,6 +15,10 @@
 5. Find authoritative name servers for the zone and display SOA records:
 * dig +nssearch hostname.com
 
+6. get current ip 
+`dig o-o.myaddr.l.google.com @ns1.google.com txt +short`
+
 ## install
 
 * sudo apt-get install dnsutils
+

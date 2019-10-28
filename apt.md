@@ -1,4 +1,7 @@
 # apt
 
 - get avilable packges
-sudo apt-cache policy docker-ce
+
+```shell
+$> sudo apt-cache policy docker-ce
+```

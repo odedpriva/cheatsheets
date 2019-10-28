@@ -1,14 +1,19 @@
-postgres cheatsheet
+# postgres
 
+- dumo db:
 
-dumo db:
+```shell
+pg_dump -h postgres.productionv2.eu-west-1.luminateops.com -U luminate -d ds > outfile
+```
 
-- ```pg_dump -h postgres.productionv2.eu-west-1.luminateops.com -U luminate -d ds > outfile```
+- list all schema:
 
-list all schema:
+```shell
+select schema_name from information_schema.schemata;
+```
 
-- ```select schema_name from information_schema.schemata;```
+- set schema:
 
-set schema:
-
-- ```SET search_path ="tenant_40bd280367fa11e780dc4e1740089c15_adama";```
+```shell
+SET search_path ="tenant_40bd280367fa11e780dc4e1740089c15_adama";
+```
